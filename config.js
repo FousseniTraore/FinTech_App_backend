@@ -1,0 +1,3 @@
+export const PORT = process.env.PORT || 3000;
+export const mongoDBURL = process.env.MONGO_URI || 'mongodb+srv://foussenitraore0597:rootflexpay@flexpay-hp.1rxi553.mongodb.net/Flexpay-hp?retryWrites=true&w=majority&appName=Flexpay-hp';
+export const JWT_SECRET = process.env.JWT_SECRET || 'aaae5c5e31b9401b2e637a5dddb74613d4f319428a35125d30dd805bcacf7e7232a1d2cde21afb0ed818de043d71c60869555e7d55c8a27f7794853475af674a';
